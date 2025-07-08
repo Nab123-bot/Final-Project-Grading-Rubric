@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h1>Discover Your Next Adventure</h1>
+      <p>Explore personalized travel destinations tailored to your interests.</p>
+    </section>
+
+    <section>
+      <h2>Top Beach Destinations</h2>
+      <p>Relax on pristine sands and enjoy crystal-clear waters.</p>
+      <img src="images/beach1.jpg" alt="Maldives Beach" />
+      <img src="images/beach2.jpg" alt="Bora Bora Beach" />
+    </section>
+
+    <section>
+      <h2>Temple Recommendations</h2>
+      <p>Discover sacred architecture and spiritual heritage.</p>
+      <img src="images/temple1.jpg" alt="Angkor Wat" />
+      <img src="images/temple2.jpg" alt="Fushimi Inari Shrine" />
+    </section>
+
+    <section>
+      <h2>Country-Based Recommendations</h2>
+      <select id="countrySelect">
+        <option value="">Select a Country</option>
+        <option value="japan">Japan</option>
+        <option value="brazil">Brazil</option>
+      </select>
+      <div id="countryInfo"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
